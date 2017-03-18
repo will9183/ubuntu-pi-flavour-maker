@@ -581,7 +581,7 @@ function make_raspi2_image() {
 function make_hash() {
     local FILE="${1}"
     local HASH="sha256"
-    local KEY="FFEE1E5C"
+    local KEY="INSETSECRETKEYHERE"
     if [ ! -f ${FILE}.${HASH}.sign ]; then
         if [ -f ${FILE} ]; then
             ${HASH}sum ${FILE} > ${FILE}.${HASH}
