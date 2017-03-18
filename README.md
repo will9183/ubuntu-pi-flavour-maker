@@ -1,2 +1,2 @@
-# Ubuntu Pi Flavor Maker - Build Ubuntu
+# Ubuntu Pi Flavor Maker - Builds Ubuntu
 Comming Soon
